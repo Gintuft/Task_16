@@ -4,7 +4,7 @@ export class TodoFormCreate {
     constructor(formCreateElement, data) {
       this.formCreateElement = formCreateElement
       this.data = data
-      this.init()
+      this.init()      
     }
     init() {
       this.handleSubmit = this.handleSubmit.bind(this)
